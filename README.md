@@ -1,6 +1,6 @@
 # Climate-Driven Temperature and Humidity Effects on New York State Electricity Demand
 
-EN.530.637 Energy Meteorology, Johns Hopkins University, Fall 2026 — graduate semester project
+EN.530.637 Energy Meteorology, Johns Hopkins University, Fall 2026 semester project
 Author: Alex Colletti
 
 This project measures how much New York's electricity demand depends on temperature and
