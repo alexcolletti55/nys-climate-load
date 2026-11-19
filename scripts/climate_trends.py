@@ -164,7 +164,7 @@ def make_figure(annual: pd.DataFrame, trends: pd.DataFrame, out: Path) -> None:
                 xm, ym = np.median(s.index), np.median(s.values)
                 xs = np.array([s.index.min(), s.index.max()])
                 ys = ym + t["sen_slope_per_decade"] / 10 * (xs - xm)
-                ax.plot(xs, ys, color=color, lw=2, ls="-" if t["mk_p"] < 0.05 else ":")
+                ax.plot(xs, ys, color=color, lw=2.5, ls="-" if t["mk_p"] < 0.05 else ":")
         ax.set_title(LABELS[metric], fontsize=10, loc="left", color="#0b0b0b")
         ax.grid(axis="y", color="#e4e3df", lw=0.6)
         for side in ("top", "right"):
@@ -174,14 +174,23 @@ def make_figure(annual: pd.DataFrame, trends: pd.DataFrame, out: Path) -> None:
         ax.tick_params(colors="#52514e", labelsize=8)
         ax.tick_params(labelbottom=True)   # show years on every panel
         ax.set_xticks(range(1970, 2030, 10))
-    handles = [plt.Line2D([], [], color=c, lw=2, label=f"{STATIONS[s][0]} (zone {STATIONS[s][1]})")
-               for s, c in FIG_STATIONS]
-    handles += [plt.Line2D([], [], color="#52514e", lw=2, ls="-", label="Sen's slope, p < 0.05"),
-                plt.Line2D([], [], color="#52514e", lw=2, ls=":", label="Sen's slope, not significant")]
-    fig.legend(handles=handles, loc="upper center", ncol=3, frameon=False, fontsize=9)
-    fig.text(0.5, 0.01, "Thin lines: annual values. Daily indicators 1964-2025; dewpoint indicators 1973-2025. "
-             "Source: NOAA GHCN-Daily and GHCNh.", ha="center", fontsize=8, color="#52514e")
-    fig.tight_layout(rect=(0, 0.03, 1, 0.94))
+    # Two legends: station colors on the first row, trend-line meaning on the second.
+    station_handles = [plt.Line2D([], [], color=c, lw=2.5, label=f"{STATIONS[s][0]} (zone {STATIONS[s][1]})")
+                       for s, c in FIG_STATIONS]
+    style_handles = [plt.Line2D([], [], color="#0b0b0b", lw=2.5, ls="-",
+                                label="Solid trend line = significant trend (Mann-Kendall p < 0.05)"),
+                     plt.Line2D([], [], color="#0b0b0b", lw=2.5, ls=":",
+                                label="Dotted trend line = NOT significant (p \u2265 0.05)")]
+    leg1 = fig.legend(handles=station_handles, loc="upper center", bbox_to_anchor=(0.5, 0.995),
+                      ncol=3, frameon=False, fontsize=9.5)
+    fig.add_artist(leg1)
+    fig.legend(handles=style_handles, loc="upper center", bbox_to_anchor=(0.5, 0.965), ncol=2,
+               frameon=True, edgecolor="#e4e3df", fontsize=9.5, handlelength=3,
+               title="Trend lines (Sen's slope)", title_fontsize=9.5)
+    fig.text(0.5, 0.01, "Thin lines: annual values. Thick lines: Sen's slope trend. Daily indicators 1964-2025; "
+             "dewpoint indicators 1973-2025. Source: NOAA GHCN-Daily and GHCNh.",
+             ha="center", fontsize=8, color="#52514e")
+    fig.tight_layout(rect=(0, 0.03, 1, 0.90))
     fig.savefig(out, dpi=200, facecolor="white")
     plt.close(fig)
 
