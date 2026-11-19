@@ -1,0 +1,85 @@
+station,station_name,zone,metric,period,n_years,period_mean,sen_slope_per_decade,mk_tau,mk_p,trend
+USW00014732,LaGuardia,J,cdd_c,1964-2025,62,699.0,46.474,0.491,0.0,increasing
+USW00014732,LaGuardia,J,cdd_c,1997-2025,29,778.22,50.485,0.281,0.034,increasing
+USW00014732,LaGuardia,J,hdd_c,1964-2025,62,2566.64,-86.656,-0.518,0.0,decreasing
+USW00014732,LaGuardia,J,hdd_c,1997-2025,29,2411.83,-82.043,-0.202,0.1287,no trend
+USW00014732,LaGuardia,J,hot_days,1964-2025,62,18.48,2.308,0.308,0.0004,increasing
+USW00014732,LaGuardia,J,hot_days,1997-2025,29,22.45,3.117,0.197,0.1373,no trend
+USW00014732,LaGuardia,J,warm_nights,1964-2025,62,62.5,5.833,0.512,0.0,increasing
+USW00014732,LaGuardia,J,warm_nights,1997-2025,29,72.45,5.871,0.313,0.0177,increasing
+USW00014732,LaGuardia,J,tmean_c,1964-2025,62,13.19,0.368,0.54,0.0,increasing
+USW00014732,LaGuardia,J,tmean_c,1997-2025,29,13.83,0.32,0.251,0.0582,no trend
+USW00014732,LaGuardia,J,humid_hours,1973-2025,53,368.62,-0.394,-0.004,0.9755,no trend
+USW00014732,LaGuardia,J,humid_hours,1997-2025,29,363.1,-27.655,-0.091,0.4994,no trend
+USW00014732,LaGuardia,J,jja_dewpoint_c,1973-2025,53,16.22,-0.023,-0.026,0.7883,no trend
+USW00014732,LaGuardia,J,jja_dewpoint_c,1997-2025,29,16.16,-0.127,-0.103,0.4418,no trend
+USW00004781,Islip,K,cdd_c,1964-2025,62,460.6,36.293,0.507,0.0,increasing
+USW00004781,Islip,K,cdd_c,1997-2025,29,518.23,47.61,0.404,0.0022,increasing
+USW00004781,Islip,K,hdd_c,1964-2025,62,2947.26,-87.773,-0.473,0.0,decreasing
+USW00004781,Islip,K,hdd_c,1997-2025,29,2810.05,-149.247,-0.369,0.0052,decreasing
+USW00004781,Islip,K,hot_days,1964-2025,62,6.94,0.919,0.25,0.004,increasing
+USW00004781,Islip,K,hot_days,1997-2025,29,8.66,0.0,0.005,0.985,no trend
+USW00004781,Islip,K,warm_nights,1964-2025,62,34.0,3.571,0.41,0.0,increasing
+USW00004781,Islip,K,warm_nights,1997-2025,29,39.0,7.143,0.473,0.0003,increasing
+USW00004781,Islip,K,tmean_c,1964-2025,62,11.49,0.336,0.523,0.0,increasing
+USW00004781,Islip,K,tmean_c,1997-2025,29,12.03,0.52,0.409,0.002,increasing
+USW00004781,Islip,K,humid_hours,1973-2025,53,494.34,54.321,0.242,0.0106,increasing
+USW00004781,Islip,K,humid_hours,1997-2025,29,530.49,153.914,0.35,0.0082,increasing
+USW00004781,Islip,K,jja_dewpoint_c,1973-2025,53,16.88,0.271,0.331,0.0005,increasing
+USW00004781,Islip,K,jja_dewpoint_c,1997-2025,29,17.13,0.467,0.35,0.0082,increasing
+USW00014771,Syracuse,C,cdd_c,1964-2025,62,342.01,27.227,0.387,0.0,increasing
+USW00014771,Syracuse,C,cdd_c,1997-2025,29,389.66,52.932,0.36,0.0065,increasing
+USW00014771,Syracuse,C,hdd_c,1964-2025,62,3672.75,-78.981,-0.417,0.0,decreasing
+USW00014771,Syracuse,C,hdd_c,1997-2025,29,3514.93,-116.094,-0.261,0.0489,decreasing
+USW00014771,Syracuse,C,hot_days,1964-2025,62,9.48,1.25,0.221,0.0111,increasing
+USW00014771,Syracuse,C,hot_days,1997-2025,29,11.66,3.101,0.224,0.0905,no trend
+USW00014771,Syracuse,C,warm_nights,1964-2025,62,11.47,1.404,0.269,0.002,increasing
+USW00014771,Syracuse,C,warm_nights,1997-2025,29,14.42,2.929,0.268,0.0417,increasing
+USW00014771,Syracuse,C,tmean_c,1964-2025,62,9.18,0.295,0.448,0.0,increasing
+USW00014771,Syracuse,C,tmean_c,1997-2025,29,9.74,0.437,0.276,0.0373,increasing
+USW00014771,Syracuse,C,humid_hours,1973-2025,52,154.79,-3.402,-0.041,0.67,no trend
+USW00014771,Syracuse,C,humid_hours,1997-2025,29,155.31,8.63,0.064,0.6391,no trend
+USW00014771,Syracuse,C,jja_dewpoint_c,1973-2025,52,15.08,0.085,0.133,0.1673,no trend
+USW00014771,Syracuse,C,jja_dewpoint_c,1997-2025,29,15.18,0.244,0.187,0.1595,no trend
+USW00094728,Central Park,J (long record),cdd_c,1964-2025,62,663.59,16.78,0.217,0.0128,increasing
+USW00094728,Central Park,J (long record),cdd_c,1997-2025,29,684.28,47.961,0.291,0.0282,increasing
+USW00094728,Central Park,J (long record),hdd_c,1964-2025,62,2589.05,-60.706,-0.39,0.0,decreasing
+USW00094728,Central Park,J (long record),hdd_c,1997-2025,29,2488.92,-86.399,-0.261,0.0489,decreasing
+USW00094728,Central Park,J (long record),hot_days,1964-2025,62,17.69,-0.189,-0.035,0.6925,no trend
+USW00094728,Central Park,J (long record),hot_days,1997-2025,29,16.28,2.632,0.182,0.1694,no trend
+USW00094728,Central Park,J (long record),warm_nights,1964-2025,62,53.23,3.704,0.352,0.0001,increasing
+USW00094728,Central Park,J (long record),warm_nights,1997-2025,29,58.66,7.09,0.318,0.0162,increasing
+USW00094728,Central Park,J (long record),tmean_c,1964-2025,62,13.03,0.218,0.391,0.0,increasing
+USW00094728,Central Park,J (long record),tmean_c,1997-2025,29,13.36,0.337,0.281,0.034,increasing
+USW00094728,Central Park,J (long record),humid_hours,1973-2025,30,433.22,6.311,0.048,0.7212,no trend
+USW00094728,Central Park,J (long record),humid_hours,1997-2025,29,434.34,6.037,0.044,0.7498,no trend
+USW00094728,Central Park,J (long record),jja_dewpoint_c,1973-2025,30,16.47,-0.096,-0.08,0.5441,no trend
+USW00094728,Central Park,J (long record),jja_dewpoint_c,1997-2025,29,16.44,-0.051,-0.039,0.7784,no trend
+USW00014733,Buffalo,A,cdd_c,1964-2025,62,333.35,21.027,0.295,0.0007,increasing
+USW00014733,Buffalo,A,cdd_c,1997-2025,29,363.94,61.886,0.325,0.014,increasing
+USW00014733,Buffalo,A,hdd_c,1964-2025,62,3630.38,-76.27,-0.433,0.0,decreasing
+USW00014733,Buffalo,A,hdd_c,1997-2025,29,3486.44,-128.659,-0.281,0.034,decreasing
+USW00014733,Buffalo,A,hot_days,1964-2025,62,3.29,0.227,0.142,0.0996,no trend
+USW00014733,Buffalo,A,hot_days,1997-2025,29,3.66,1.165,0.254,0.0521,no trend
+USW00014733,Buffalo,A,warm_nights,1964-2025,62,15.76,1.509,0.241,0.0057,increasing
+USW00014733,Buffalo,A,warm_nights,1997-2025,29,18.24,4.444,0.296,0.0253,increasing
+USW00014733,Buffalo,A,tmean_c,1964-2025,62,9.27,0.276,0.421,0.0,increasing
+USW00014733,Buffalo,A,tmean_c,1997-2025,29,9.75,0.49,0.32,0.0155,increasing
+USW00014733,Buffalo,A,humid_hours,1973-2025,53,133.78,9.327,0.096,0.315,no trend
+USW00014733,Buffalo,A,humid_hours,1997-2025,29,149.88,8.351,0.034,0.8073,no trend
+USW00014733,Buffalo,A,jja_dewpoint_c,1973-2025,53,14.62,0.169,0.261,0.0059,increasing
+USW00014733,Buffalo,A,jja_dewpoint_c,1997-2025,29,14.89,0.085,0.069,0.6125,no trend
+USW00014735,Albany,F,cdd_c,1964-2025,62,349.03,29.016,0.444,0.0,increasing
+USW00014735,Albany,F,cdd_c,1997-2025,29,399.28,54.879,0.409,0.002,increasing
+USW00014735,Albany,F,hdd_c,1964-2025,62,3694.36,-107.087,-0.547,0.0,decreasing
+USW00014735,Albany,F,hdd_c,1997-2025,29,3507.68,-133.346,-0.32,0.0155,decreasing
+USW00014735,Albany,F,hot_days,1964-2025,62,9.92,0.667,0.117,0.1785,no trend
+USW00014735,Albany,F,hot_days,1997-2025,29,10.69,2.971,0.259,0.0502,no trend
+USW00014735,Albany,F,warm_nights,1964-2025,62,11.97,2.5,0.495,0.0,increasing
+USW00014735,Albany,F,warm_nights,1997-2025,29,16.52,4.142,0.441,0.0008,increasing
+USW00014735,Albany,F,tmean_c,1964-2025,62,9.14,0.373,0.539,0.0,increasing
+USW00014735,Albany,F,tmean_c,1997-2025,29,9.79,0.52,0.374,0.0046,increasing
+USW00014735,Albany,F,humid_hours,1973-2025,52,182.79,7.51,0.091,0.3437,no trend
+USW00014735,Albany,F,humid_hours,1997-2025,29,187.98,-0.254,-0.002,1.0,no trend
+USW00014735,Albany,F,jja_dewpoint_c,1973-2025,52,15.17,0.106,0.143,0.1359,no trend
+USW00014735,Albany,F,jja_dewpoint_c,1997-2025,29,15.31,0.035,0.049,0.7215,no trend
